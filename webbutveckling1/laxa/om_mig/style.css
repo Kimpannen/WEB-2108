@@ -63,7 +63,7 @@ body{
     width:60%;
     padding: 0 30px;
     box-sizing: border-box;
-    background-color: #333;
+    background-color: #0c0c18;
     color: white;
     text-align: center;
     border: 5px #5118a2 solid;
@@ -72,7 +72,7 @@ body{
 #sidebar{
     float: right;
     width:30%;
-    background:  #333;
+    background:  #0c0c18;
     color: #fff;
     padding: 10px;
     box-sizing: border-box;
@@ -82,7 +82,7 @@ body{
 #sidebar-2{
     float: right;
     width:30%;
-    background:  #333;
+    background: #0c0c18;
     color: #fff;
     padding: 10px;
     box-sizing: border-box;
