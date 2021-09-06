@@ -1,0 +1,146 @@
+body{
+    background-color: #161616;
+    color: #555;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    background-image: url("bilder/spmUM.gif");
+    background-position: top;
+    background-position: 500px 8400px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+
+}
+
+
+#main-header{
+    background-color: #5118a2;
+    color: #fff;
+
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url("bilder/retro.jpg");
+    color: #5118a2;
+    background-position: center right;
+    min-height: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#showcase {
+    font-size: 25px;
+    line-height: 4.5em;
+}
+
+#main{
+    float: left;
+    width:60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border: 5px #5118a2 solid;
+}
+
+#sidebar{
+    float: right;
+    width:30%;
+    background:  #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px #5118a2 solid;
+}
+
+#sidebar-2{
+    float: right;
+    width:30%;
+    background:  #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px #5118a2 solid;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:  20px;
+    margin-top: 40px;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:  20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+#main{
+    width: 100%;
+    float:none;
+}
+
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.myform .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width: 100%;
+}
+
+.mål{
+
+    list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
