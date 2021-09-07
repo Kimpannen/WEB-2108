@@ -15,3 +15,15 @@ W
 'webbutveckling1/laxa/om_mig/om-mig.html,6\d\6d7cbe2e7e759d42fc90ec659b079f5f7811c2dd
 d
 4webbutveckling1/2021-09-06/repetition_html/README.md,a\d\ad3c2e03dc45babc324cc8d43ffafe8a8e37b761
+f
+6webbutveckling1/2021-09-06/repetition_html/index3.html,6\8\6848b1f41f4ec2defb853105846b2069cab78178
+f
+6webbutveckling1/2021-09-06/repetition_html/index2.html,8\4\84d82192bcf817398882f5ae041200f0e0aec3ac
+e
+5webbutveckling1/2021-09-06/repetition_html/index.html,5\4\54db3b2eded82ae8a3b2b8f4d5c55ae8aa409fc4
+V
+&webbutveckling1/laxa/om_mig/index.html,4\8\48c2b6cd2dced7be82c34f9e4c1cc2762f4ea8d5
+U
+%webbutveckling1/2021-09-07/index.html,3\2\328026c016e9910c0599b0c83d5f8d56a6ad03e6
+T
+$webbutveckling1/2021-09-07/style.css,c\4\c48acabe010362cdc659dc97c1d8ef83c05d6e38
