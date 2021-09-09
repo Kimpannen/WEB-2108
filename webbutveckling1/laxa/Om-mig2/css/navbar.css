@@ -31,13 +31,7 @@ body{
 .navbar-link:hover:not(active){
     background-color: #111;
 }
- .active{
-     background-color: blue;
- }
- 
-
-
-
-
-
+.active{
+    background-color: blue;
+}
 
