@@ -1,40 +1,14 @@
 body{
+    background-color: #161616;
+    color: #555;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 1.6em;
     margin: 0;
-    padding: 0;
+    background-image: url("bilder/spmUM.gif");
+    background-position: top;
+    background-position: 500px 8400px;
 }
-
-
-#navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.navbar-item{
-    float: left;
-}
-
-.navbar-item2{
-    float: right;
-}
-
-.navbar-link{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0.84em 1em;
-    text-decoration: none;
-}
-
-.navbar-link:hover:not(active){
-    background-color: #111;
-}
- .active{
-     background-color: blue;
- }
- 
 
 
 
