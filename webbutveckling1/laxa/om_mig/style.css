@@ -97,13 +97,6 @@ body{
     margin-top: 40px;
 }
 
-#main-footer{
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding:  20px;
-    margin-top: 40px;
-}
 
 @media(max-width:600px){
 #main{
