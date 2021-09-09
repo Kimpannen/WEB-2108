@@ -1,6 +1,9 @@
 #main-header {
     background-color: #5118a2;
-    color: #fff;;
+    color: #fff;
+
+
+
 }
 
 .container{
@@ -9,8 +12,14 @@
     overflow:hidden;
 }
 
+.container-2{
+    width: 90%;
+    margin: auto;
+    overflow:hidden;
+}
+
 #showcase{
-    background-image: url("/webbutveckling1/laxa/om-mig2/img/retro.jpg");
+    background-image: url("/img/retro.jpg");
     color: #5118a2;
     background-position: center right;
     min-height: 2em;
@@ -18,8 +27,10 @@
     margin-bottom: 1.5em;
 }
 
-#showcase{
+#showcase {
     font-size: 2em;
     line-height: 2em;
 }
+
+
 
