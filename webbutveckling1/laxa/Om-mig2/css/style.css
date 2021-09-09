@@ -19,14 +19,14 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #1f1c21;
 }
 
 .active{
     background-color: blue;
 }
 
-.active li a{
+#float-other{
     float: right;
 }
 
