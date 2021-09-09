@@ -5,10 +5,17 @@ body{
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
-    background-image: url("bilder/spmUM.gif");
-    background-position: top;
-    background-position: 500px 8400px;
+    background-image: url("/webbutveckling1/laxa/om-mig2/img/sea-edge-79ab30e2.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
 }
+
+body, html {
+    height: 100%;
+
+
 
 
 
