@@ -4,73 +4,94 @@
 }
 
 body {
-    margin: 0;
+    margin: 0em;
     padding: 0;
     background-color: #000000;
     color: white;
+    background-image: url("../img/abstract.jpg");
+    font-family: 'Poppins', serif;
 }
 
-section, aside, footer {
+section, aside {
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     border-bottom: 1px solid black;
+}
+
+footer {
+    padding: 10px;
 }
 
 .header {
     background: #5118a2;
     margin: 0;
-    padding: 10px;
+    padding: 10px
+
 }
 
 .hero {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: url("/img");
+    text-align: center;
+    font-size: 1em;
+    color: #5118a2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/retro.jpg");;
 
 }
+
 
 .wrapper {
     margin: auto;
     max-width: 1200px;
+
 }
 
 .content {
-    background: #129a22;
+    background: #0c0c18;
+    font-size: 25px;
+
+
 }
 
 .sidebar {
     background: #673ab7;
 }
 
+.sidebar-image {
+    width: 30%;
+}
+
 .footer {
-    background: #616161;
+    background: #333;
+
+
 }
 
 .red {
-    background-color: red;
+    background-color: #333;
+
 }
 
 .green {
-    background-color: green;
+    background-color: #333;
 }
 
 .orange {
-    background-color: orange;
+    background-color: #333;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #333;
 }
+
+
 
 .footer-flex-container {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .red, .green, .orange, .blue {
-    padding: 20px;
+    padding: 0;
     flex-basis: 100%;
 }
 
@@ -80,14 +101,18 @@ section, aside, footer {
 }
 
 .img-responsive {
-    width: 100%;
+    height: 100px;
+    width: 100px;
+
+
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+
     }
 
     .red, .green, .orange, .blue {
@@ -99,18 +124,32 @@ section, aside, footer {
     }
 
     .img-responsive {
-        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
+
+    .sidebar{
+        background: #0c0c18
+    }
+
+    .sidebar-image {
+        width: 70%;
+    }
+
 }
 
 /* laptop/Desktop */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 900px) {
     .grid-container {
         grid-template-columns: 3fr 1fr;
     }
 
-    .sidebar {
-        background: orange;
+    .sidebar{
+        background: #0c0c18
+    }
+
+    .sidebar-image{
+        width: 100%;
     }
 
     .red, .green, .orange, .blue {
@@ -153,3 +192,8 @@ section, aside, footer {
 .active{
     background-color: black;
 }
+
+.sidebar{
+    background: #0c0c18
+}
+
