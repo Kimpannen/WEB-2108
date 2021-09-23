@@ -1,0 +1,11 @@
+footer {
+    padding: 0px;
+}
+.footer {
+    background: #333;
+}
+
+.footer-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}

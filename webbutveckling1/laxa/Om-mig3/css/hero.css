@@ -1,0 +1,6 @@
+.hero {
+    text-align: center;
+    font-size: 1em;
+    color: #5118a2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/retro.jpg");;
+}
