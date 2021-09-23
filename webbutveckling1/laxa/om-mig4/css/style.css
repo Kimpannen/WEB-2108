@@ -11,7 +11,7 @@ body {
     color: #333;
     background-color: snow;
     margin: 0 auto;
-    max-width: 2000px;
+    max-width: 2048px;
     background-image: url("/img/abstract.jpg");
 }
 
@@ -21,9 +21,9 @@ body {
     border-radius: 6px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
     color: white;
-
-
 }
+
+
 
 .item-showcase{
     background-image: url("/img/retro.jpg");
@@ -44,15 +44,11 @@ body {
     gap: 10px;
 }
 
-    .container2 {
-    display-grid:
-    height: 100vh;
-}
 
-.task-5 .item-1 {
-}
 
 .task-5 .item-2 {
+    grid-row: 1 / span 16;
+    grid-column: 5 / span 3;
 }
 
 .task-5 .item-3 {
@@ -62,7 +58,7 @@ body {
 }
 
 
-
+/* Home, About */
 @media (min-width: 720px) {
     .task-3-1.container {
         grid-template-columns: repeat(12, 1fr);
@@ -158,12 +154,13 @@ body {
             grid-column: 7 / span 4;
             grid-row: 4 / 5;
 
-
         }
 
         .task-3-1 .footer {
             grid-column: 1 / span 12;
             grid-row: 6;
-        }
+        }}}
 
-}}
+
+        /* Products */
+
