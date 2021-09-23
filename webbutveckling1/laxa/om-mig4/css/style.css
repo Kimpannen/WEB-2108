@@ -19,8 +19,9 @@ body {
     padding: 12px;
     background-color: #0c0c18;
     border-radius: 6px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
     color: white;
+
 
 }
 
@@ -36,12 +37,30 @@ body {
     height: 50vh;
 }
 
-.task-3-1.container {
+    .container {
     display:grid;
     height: 100vh;
-    grid-template-rows: 90px auto 120px 1fr auto auto;
+    grid-template-rows: 90px 50px 120px 1fr auto auto;
     gap: 10px;
 }
+
+    .container2 {
+    display-grid:
+    height: 100vh;
+}
+
+.task-5 .item-1 {
+}
+
+.task-5 .item-2 {
+}
+
+.task-5 .item-3 {
+}
+
+.task-5 .item-4 {
+}
+
 
 
 @media (min-width: 720px) {
@@ -68,6 +87,7 @@ body {
     .task-3-1 .sidebar {
         grid-column: 8 / span 4;
         grid-row: 4;
+
     }
 
     .task-3-1 .footer {
@@ -102,6 +122,7 @@ body {
     .task-3-1 .sidebar {
         grid-column: 8 / span 4;
         grid-row: 4;
+
     }
 
     .task-3-1 .footer {
@@ -137,6 +158,7 @@ body {
             grid-column: 7 / span 4;
             grid-row: 4 / 5;
 
+
         }
 
         .task-3-1 .footer {
@@ -144,4 +166,4 @@ body {
             grid-row: 6;
         }
 
-}
+}}
