@@ -44,20 +44,6 @@ body {
     gap: 10px;
 }
 
-
-
-.task-5 .item-2 {
-    grid-row: 1 / span 16;
-    grid-column: 5 / span 3;
-}
-
-.task-5 .item-3 {
-}
-
-.task-5 .item-4 {
-}
-
-
 /* Home, About */
 @media (min-width: 720px) {
     .task-3-1.container {

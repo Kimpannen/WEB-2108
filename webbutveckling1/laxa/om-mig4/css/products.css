@@ -28,6 +28,7 @@ body {
     color: #5118a2;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
     text-align: center;
+
 }
 
 
@@ -38,11 +39,12 @@ body {
 .task-3-1.container {
     display:grid;
     height: 100vh;
-    grid-template-rows: auto auto auto 1fr 1fr 1fr auto;
+    grid-template-rows: 100px 80px auto 1fr 1fr 1fr auto;
     gap: 10px;
 }
 
 
+/* Tablet */
 @media (min-width: 720px) {
     .task-3-1.container{
         grid-template-columns: repeat(12, 1fr);
@@ -52,18 +54,17 @@ body {
         grid-column: 1 / span 12;
     }
 
-    .task-3-1 .navigation{
-        grid-column: 1 / span 12
+    .task-3-1 .item-navigation{
+        /*grid-column: 1 / span 12*/
     }
 
     .task-3-1 .showcase{
         grid-column: 1 / span 12;
     }
 
-    .item.grid1{
-        grid-column: 2 / span 10;
-        grid-row: 4;
-
+    .grid1{
+        /*grid-column: 2 / span 10;*/
+        /*grid-row: 4;*/
     }
 
     .item.grid2{
@@ -86,36 +87,3 @@ body {
 
 
 
-
-
-#navbar, .navigation {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-    align-items: center;
-
-}
-
-
-.navbar-item{
-    float: left;
-}
-
-.navbar-item2{
-    float: right;
-}
-
-.navbar-link{
-    display: grid;
-    color: white;
-    text-align: center;
-    padding: 1px 10px;
-    text-decoration: none;
-}
-
-.navbar-link:hover:not(active){
-    background-color: #111;
-}
-.active{
-    background-color: black;
-}
