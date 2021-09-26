@@ -28,15 +28,34 @@ body {
     text-align: center;
 }
 
+.item-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #333;
+}
+
+.item-navigation li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-link:hover:not(active) {
+    background-color: #111;
+}
+
 
 .height-50 {
     height: 50vh;
 }
 
-.container {
-    display: grid;
+.task-3-1.container {
     height: 100vh;
-    grid-template-rows: 90px 50px 200px auto auto;
+    grid-template-rows: 100px 80px auto 1fr 1fr 1fr auto;
     gap: 10px;
 }
 
@@ -64,6 +83,38 @@ tr:hover {
         grid-template-rows: 100px 50px 150px auto auto;
     }
 
+    #navbar, .navigation {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #333;
+        align-items: center;
+
+    }
+
+    .navbar-item {
+        float: left;
+    }
+
+    .navbar-item2 {
+        float: right;
+    }
+
+    .navbar-link {
+        display: grid;
+        color: white;
+        text-align: center;
+        padding: 1px 10px;
+        text-decoration: none;
+    }
+
+    .navbar-link:hover:not(active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: black;
+    }
+
     .task-3-1 .header {
         grid-column: 1 / span 12;
     }
@@ -79,7 +130,9 @@ tr:hover {
     .task-3-1 .courses {
         grid-column: 3 / span 8;
         grid-row: 4;
+
     }
+
 
     .task-3-1 .footer {
         grid-column: 1 / span 12;
@@ -114,6 +167,12 @@ tr:hover {
         .task-3-1 .footer {
             grid-column: 1 / span 12;
             grid-row: 12;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
         }
 
 

@@ -8,15 +8,15 @@
 }
 
 
-.navbar-item{
+.navbar-item {
     float: left;
 }
 
-.navbar-item2{
+.navbar-item2 {
     float: right;
 }
 
-.navbar-link{
+.navbar-link {
     display: grid;
     color: white;
     text-align: center;
@@ -24,10 +24,11 @@
     text-decoration: none;
 }
 
-.navbar-link:hover:not(active){
+.navbar-link:hover:not(active) {
     background-color: #111;
 }
-.active{
+
+.active {
     background-color: black;
 }
 

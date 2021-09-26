@@ -51,11 +51,62 @@ section {
     text-align: center;
 }
 
+.item-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #333;
+}
+
+.item-navigation li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-link:hover:not(active) {
+    background-color: #111;
+}
 
 @media (min-width: 720px) {
     .task-3-1.container {
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: 100px 50px 150px auto auto;
+    }
+
+    #navbar, .navigation {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #333;
+        align-items: center;
+
+    }
+
+    .navbar-item {
+        float: left;
+    }
+
+    .navbar-item2 {
+        float: right;
+    }
+
+    .navbar-link {
+        display: grid;
+        color: white;
+        text-align: center;
+        padding: 1px 10px;
+        text-decoration: none;
+    }
+
+    .navbar-link:hover:not(active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: black;
     }
 
     .task-3-1 .header {
