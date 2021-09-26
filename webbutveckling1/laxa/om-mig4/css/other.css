@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
 }
@@ -30,48 +29,33 @@ body {
 }
 
 
-.height-50 {
-    height: 50vh;
-}
-
-.container {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 90px 50px 200px 1fr auto auto;
-    gap: 10px;
-}
-
-.fakeimg1 {
-    background-color: #aaa;
+.iframe {
+    position: relative;
+    overflow: hidden;
     width: 100%;
-    height: 500px;
-    padding: 20px;
-
-    background-image: url("/img/norrsken1.jpg");
+    padding-top: 36.25%;
 }
 
-.fakeimg2 {
-    background-color: #aaa;
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
-    height: 500px;
-    padding: 20px;
-    background-image: url("/img/thunderstorm.jpg");
+    height: 100%;
 }
 
-.fakeimg3 {
-    background-color: #aaa;
-    width: 100%;
-    height: 500px;
-    padding: 20px;
-    background-image: url("/img/sun.jpg");
-
+section {
+    color: white;
+    text-align: center;
 }
 
 
 @media (min-width: 720px) {
     .task-3-1.container {
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: auto 50px auto auto auto auto auto;
+        grid-template-rows: 100px 50px 150px auto auto;
     }
 
     .task-3-1 .header {
@@ -86,21 +70,12 @@ body {
         grid-column: 1 / span 12;
     }
 
-    .task-3-1 .blogg1 {
+    .task-3-1 .courses {
         grid-column: 3 / span 8;
         grid-row: 4;
 
     }
 
-    .task-3-1 .blogg2 {
-        grid-column: 3 / span 8;
-        grid-row: 5;
-    }
-
-    .task-3-1 .blogg3 {
-        grid-column: 3 / span 8;
-        grid-row: 6;
-    }
 
     .task-3-1 .footer {
         grid-column: 1 / span 12;
@@ -111,7 +86,7 @@ body {
     @media (min-width: 1500px) {
         .task-3-1.container {
             grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 100px 60px 100px 1fr 1fr 1fr auto;
+            grid-template-rows: 100px 50px 150px auto auto;
         }
 
         .task-3-1 .header {
@@ -126,20 +101,10 @@ body {
             grid-column: 1 / span 12;
         }
 
-        .task-3-1 .blogg1 {
-            grid-column: 4 / span 6;
+        .task-3-1 .courses {
+            grid-column: 3 / span 8;
             grid-row: 4;
 
-        }
-
-        .task-3-1 .blogg2 {
-            grid-column: 4 / span 6;
-            grid-row: 5;
-        }
-
-        .task-3-1 .blogg3 {
-            grid-column: 4 / span 6;
-            grid-row: 6;
         }
 
         .task-3-1 .footer {
@@ -147,9 +112,15 @@ body {
             grid-row: 12;
         }
 
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
 
     }
 }
 
-
-
+{
+}
