@@ -4,6 +4,10 @@ let priceStudent = 109
 let priceChildren = 79
 let popcornInit = 500
 
+let amountOrdinary = 0
+let amountPensioner = 0
+let amountChildren = 0
+
 
 
 // Initiera värderna
@@ -62,6 +66,28 @@ function updateTotal() {
     updatePopcorn(totalSum)
 }
 
+
+function getTotalCount() {
+    let tickets = document.querySelectorAll('.qty-input')
+    let total = 0
+    for (let i = 0; i < tickets.length; i++) {
+        if (parseInt(tickets[i].value)) {
+            total += parseInt(tickets[i].value)
+        }
+    }
+    document.getElementById('total-sum').value = total
+    document.getElementById('price-ordinary').value = priceOrdinary * amountOrdinary
+    document.getElementById('price-student').value = priceStudent * amountPensioner
+    document.getElementById('price-children').value = priceChildren * amountChildren
+}
+
+//totalen av alla biljettpriser
+function totalAmount() {
+    let grandTotal = (amountChildren * priceChildren) + (amountOrdinary * priceOrdinary) + (amountChildren * priceChildren)
+
+    document.getElementById('total-sum').textContent = grandTotal
+    checkFreePopcorn(grandTotal)
+}
 
 
 

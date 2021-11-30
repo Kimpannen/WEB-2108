@@ -32,13 +32,9 @@
             <span class="type">Antlers Ordinarie</span>
         </div>
         <span id="price-ordinary"></span>
-        <div class="countBtn">
-            <label class="label1">
-                <div class="minus button">-</div>
-                <input id="q0" class="qty-input" type="text" value="0" pattern="\d*" maxlength="2" min="0"
-                       oninput="validity.valid||(value='');">
-                <div class="plus button">+</div>
-            </label>
+        <div>
+            <input id="amount-ordinary" type="number" value="0" min="0" >
+
         </div>
     </section>
 
@@ -50,13 +46,9 @@
             <span class="type">Antlers Student</span>
         </div>
         <span id="price-student"></span>
-        <div class="countBtn">
-            <label class="label1">
-                <div class="minus button">-</div>
-                <input id="q0" class="qty-input" type="text" value="0" pattern="\d*" maxlength="2" min="0"
-                       oninput="validity.valid||(value='');">
-                <div class="plus button">+</div>
-            </label>
+        <div>
+            <input id="amount-student" type="number" value="0" min="0" >
+
         </div>
     </section>
 
@@ -69,14 +61,10 @@
         </div>
         <span id="price-children"></span>
         <div>
-            <div class="countBtn">
-                <label class="label1">
-                    <div class="minus button">-</div>
-                    <input id="q0" class="qty-input" type="text" value="0" pattern="\d*" maxlength="2" min="0"
-                           oninput="validity.valid||(value='');">
-                    <div class="plus button">+</div>
-                </label>
-            </div>
+            <input id="amount-children" type="number" value="0" min="0">
+            <input id="button1" type="button" value="Uppdatera Beställning" onclick="updateTotal();">
+
+
         </div>
     </section>
 
@@ -85,8 +73,8 @@
 </main>
 
 <section id="kundkorg">Kundkorg
-
 </section>
+
 
 <section class="popcorn">
     <strong>Totalt:</strong>

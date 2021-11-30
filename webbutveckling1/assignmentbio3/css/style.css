@@ -72,3 +72,11 @@ li a:hover:not(.active) {
     font-weight: bold;
 }
 
+#quantity{
+    display: flex;
+    padding-left: 350px;
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+

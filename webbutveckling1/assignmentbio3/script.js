@@ -11,7 +11,6 @@ function initiateValues() {
     document.getElementById('price-ordinary').innerHTML = priceOrdinary.toString() + " kr";
     document.getElementById('price-student').innerHTML = priceStudent.toString() + " kr";
     document.getElementById('price-children').innerHTML = priceChildren.toString() + " kr";
-    document.getElementById('popcorn-remain').innerHTML = "Kvar till gratis popcorn: " + popcornInit.toString() + " kr";
 }
 
 // Lägg till pris och räkna antal
