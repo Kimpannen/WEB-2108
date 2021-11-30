@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <script src="store.js" async></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="main-header">
+    <nav class="main-nav nav">
+        <ul>
+            <li><a href="#">HEM</a></li>
+            <li><a href="#">TOPPLISTOR</a></li>
+            <li><a href="#">OM OSS</a></li>
+        </ul>
+    </nav>
+    <h1 class="band-name band-name-large">Kimmie's Music-shop</h1>
+    <div class="cart-info" id="cart-info">
+            <span class="cart-info-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </span>
+
+    </div>
+</header>
+
+
+<button onclick="myFunction()"> <img src="img/cart.png" class="cartikon"></button>
+<div id="myDIV">
+
+
+
+    <section class="container content-section">
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <div class="shipping-total-title">Kvar till fri frakt</div>
+            <div class="shipping-total-price">259kr</div>
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0kr</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+
+
+
+</div>
+
+
+<main>
+<section class="container content-section">
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">In Flames</span>
+            <img class="shop-item-image" src="img/inflames.jpg" alt="In Flames">
+            <div class="shop-item-details">
+                <span class="shop-item-price">199kr</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Metallica</span>
+            <img class="shop-item-image" src="img/Metallica.jpg" alt="Metallica">
+            <div class="shop-item-details">
+                <span class="shop-item-price">99kr</span>
+                <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Pantera</span>
+            <img class="shop-item-image" src="img/pantera.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">49kr</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Aerosmith</span>
+            <img class="shop-item-image" src="img/aerosmith.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">199kr</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Van Halen</span>
+            <img class="shop-item-image" src="img/van.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">139kr</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Sabaton</span>
+            <img class="shop-item-image" src="img/sabaton.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">219kr</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+</main>
+
+<footer class="main-footer">
+        <h3><p>&copy; 2021 Kimmie's Music-shop</p></h3>
+</footer>
+
+</body>
+</html>

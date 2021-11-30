@@ -1,0 +1,17 @@
+
+9
+	style.css,4\6\46e3381e9569c09e85a30b9e5a2af7525ee9fd78
+:
+
+index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
+;
+colors.html,6\4\64acf211de0217575e033803b3ae92c43c67df05
+9
+	task.html,d\0\d08621f853ccd756ae04197acb42513de99d537a
+<
+counter.html,4\8\48082761cbd6f3becf8c2f71198502b4d3d3f50b
+:
+
+counter.js,6\4\648dcc148c98983aefcfd3f7d51eecc2080ad0b6
+=
+currency.html,4\c\4c682d296985e1220c1fc388237a8323af333032

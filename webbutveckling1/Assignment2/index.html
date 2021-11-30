@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="js/webshop.js" async></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="task-3-1 container">
+    <header class="header">
+
+        Kimmies Musik
+        <label>
+            <input class="search" type="text" placeholder="Sök efter album.." name="search">
+        </label>
+
+        <!-- Cart ikon -->
+        <div class="cart-info" id="cart-info">
+            <span class="cart-info-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </span>
+            <p><span id="item-count">0</span>items</p>
+        </div>
+
+
+
+
+
+
+        <section id='cart-content'
+                 class='grid-container'>
+        </section>
+    </header>
+
+    <nav class="navigation">
+        <ul>
+            <li><a class="#" href="#hem">Om</a></li>
+            <li><a href="#">Topplistor</a></li>
+            <li><a href="#">Bästsäljare</a></li>
+            <li><a href="#">Hem</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+    <main class="item main">
+
+        <div class="products">
+            <div class="product metallica">
+                <img src="img/Metallica.jpg" class="product__image" alt="Metallica">
+                <h5 class="product-title">Metallica,
+                    Kill 'Em All
+                    <div class="shop-item-details">
+                        <h3 class="product__price">$15</h3>
+                        <button class="btn btn-primary ADD-TO-CART">Add to Cart</button>
+                    </div>
+                </h5>
+            </div>
+        </div>
+
+        <div class="products">
+            <div class="product inflames">
+                <img src="img/inflames.jpg" class="product__image" alt="InFlames">
+                <h5 class="product-title">In Flames,
+                    A Sense Of Purpose
+                    <div class="shop-item-details">
+                        <h3 class="product__price">$20</h3>
+                        <button class="btn btn-primary ADD-TO-CART">Add to Cart</button>
+                    </div>
+                </h5>
+            </div>
+        </div>
+
+
+
+        <div class="products">
+            <div class="product pantera">
+                <img src="img/pantera.jpg" class="product__image" alt="pantera">
+                <h5 class="product-title">Pantera,
+                    Vulgar Display Of Power
+                    <div class="shop-item-details">
+                        <h3 class="product__price">$10</h3>
+                        <button class="btn btn-primary ADD-TO-CART">Add to Cart</button>
+                    </div>
+                </h5>
+            </div>
+        </div>
+
+        <section>
+            <div class="cart" id="cart">
+                <h1 class="section-header">CART</h1>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM
+                    </span>
+                    <span class="cart-price cart-header cart-column">PRICE
+                    </span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total"></div>
+                <strong class="cart-total-title">
+                    Total:
+                </strong>
+                <span
+                        class="cart-total-price">0$</span>
+                <div>
+                <button class="btn btn-primary btn-purchase"
+                        type="button">Purchase</button>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <div class="item sidebar"></div>
+
+    <div class="item sidebar2"></div>
+
+    <footer class="item footer"><p>© 2021 Kimmie Mordza</p></footer>
+
+</div>
+
+
+
+</body>
+</html>

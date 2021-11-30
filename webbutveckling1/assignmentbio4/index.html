@@ -1,0 +1,106 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" async></script>
+
+</head>
+<body>
+
+<nav>
+
+    <ul>
+        <li><a class="active" href="#home">Biljettköp</a></li>
+        <li><a href="#news">Nyheter</a></li>
+        <li><a href="#contact">Topplistor</a></li>
+        <li><a href="#about">Om</a></li>
+    </ul>
+
+</nav>
+
+<main>
+
+    <section>
+        <div>
+            <img src="/img/bio.jpg" width="100" height="200">
+        </div>
+        <div>
+            <span class="type">Antlers Ordinarie</span>
+        </div>
+        <span id="price-ordinary"></span>
+        <div class="countBtn">
+            <label class="label1">
+                <div class="minus button">-</div>
+                <input id="q0" class="qty-input" type="text" value="0" pattern="\d*" maxlength="2" min="0"
+                       oninput="validity.valid||(value='');">
+                <div class="plus button">+</div>
+            </label>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <img src="/img/bio.jpg" width="100" height="200">
+        </div>
+        <div>
+            <span class="type">Antlers Student</span>
+        </div>
+        <span id="price-student"></span>
+        <div class="countBtn">
+            <label class="label1">
+                <div class="minus button">-</div>
+                <input id="q0" class="qty-input" type="text" value="0" pattern="\d*" maxlength="2" min="0"
+                       oninput="validity.valid||(value='');">
+                <div class="plus button">+</div>
+            </label>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <img src="/img/bio.jpg" width="100" height="200">
+        </div>
+        <div>
+            <span class="type">Antlers Barn</span>
+        </div>
+        <span id="price-children"></span>
+        <div>
+            <div class="countBtn">
+                <label class="label1">
+                    <div class="minus button">-</div>
+                    <input id="q0" class="qty-input" type="text" value="0" pattern="\d*" maxlength="2" min="0"
+                           oninput="validity.valid||(value='');">
+                    <div class="plus button">+</div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+
+
+</main>
+
+<section id="kundkorg">Kundkorg
+
+</section>
+
+<section class="popcorn">
+    <strong>Totalt:</strong>
+    <span id="total-sum">0kr</span>
+</section>
+
+<section class="popcorn">
+    <strong id="popcorn-remain"></strong>
+</section>
+
+
+
+
+
+
+</body>
+</html>
