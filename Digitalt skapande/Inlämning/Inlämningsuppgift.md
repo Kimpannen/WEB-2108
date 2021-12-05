@@ -45,7 +45,7 @@ som förstörde rotationen på slutet.
 
 #### Stop Motion
 
-![stopmotion](stopmotion.jpg)
+
 
 Jag använde mig av Leos stativ för att ta bildserier
 ovaninfrån med hjälp av ett stativ som hade en fastmonterad
@@ -63,7 +63,6 @@ Här är bilder som är utkast från denna skapelse
 som är med på skapelseprocessen jag skrivit ner för
 att förtydliga hur jag gick vidare.
 
-![utkast](Img0032.jpg)
 ![utkast](Img0033.jpg)
 ![utkast](Img0034.jpg)
 ![utkast](Img0035.jpg)
