@@ -1,6 +1,6 @@
 ### REDOGÖR FÖR DIN SKAPANDEPROCESS
 
-####Kvargen
+#### Kvargen
 
 Andra gif filen som jag har på våran gemsamma sida (kvargen)
 tänkte jag att jag ville göra något roterande objekt likt den vi blev 
