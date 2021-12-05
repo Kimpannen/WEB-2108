@@ -45,6 +45,7 @@ som förstörde rotationen på slutet.
 
 #### Stop Motion
 
+![stopmotion](stop.jpg)
 
 
 Jag använde mig av Leos stativ för att ta bildserier
