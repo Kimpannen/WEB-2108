@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --dark-primary-color: #160EA8;
+    --light-primary-color: #4E45FF;
+    --background-color: #352AF5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 127vh;
+    width: 100%;
+    background-color: var(--background-color);
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container article {
+    width: 50%;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    clear:right;
+}
+
+header {
+    background-color: var(--dark-primary-color);
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+    font-size: large;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+#disneylogo {
+    float: right;
+    margin-top: 50px;
+    max-width: 15%
+
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-primary-color);
+    font-family: 'Fuzzy Bubbles', cursive;
+    position:fixed;
+
+
+}
+
+footer p {
+    font-size: 30px;
+    color: white;
+}
