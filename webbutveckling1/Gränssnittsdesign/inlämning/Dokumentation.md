@@ -27,8 +27,8 @@ generellt som hjälper dig på vägen. Jag gjorde inte fler sidor på denna hems
 höll mig mer till layouten och kände att det räckte just nu. Det finns också en del i
 sidan där man ser folk online, för att skapa en mer levande sida.
 
-###
-Beskriv något som var besvärligt att få till.
+### Beskriv något som var besvärligt att få till.
+
 
 Jag hade stora problem att få min fontawesome att fungera som jag ville, speciellt nyare 
 icons. Facebook och twitter funkade inte från början, så jag vet inte om det jag länkat till
@@ -36,9 +36,8 @@ icons. Facebook och twitter funkade inte från början, så jag vet inte om det 
 bilder, men såg att "Areeven" använde sig av "thesepeopledoesentexist", då blev det betydligt
 lättare att få lite bilder på människor. 
 
-###
+### Beskriv om du fått byta lösning och varför i sådana fall.
 
-Beskriv om du fått byta lösning och varför i sådana fall.
 
 Jag hade velat göra hemsidan mer i javascript för att få funktioner på hemsidan
 att fungera, så som en varukorg samt att jag skulle kunna lägga till medlemskap
@@ -46,7 +45,7 @@ i den. Hade också varit kul att lägga till en riktig sökfunktion där man fic
 random profiler på hemsidan. Sen hade jag också velat göra en inloggning på sidan vilket
 jag inte tänkte på tidigare. 
 
-###Utvärdering
+### Utvärdering
 
 Jag blev ändå nöjd med sidan. Det tog ett tag innan jag hittade ett färgschema som jag 
 blev nöjd med. Jag tycker röd färg anspråkar på ett kärlekstema, så det fick bli det.
