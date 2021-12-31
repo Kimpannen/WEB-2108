@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Color Variables */
+:root {
+    --primary: #EE2737FF;
+    --dark: #751313;
+    --hover: #BA0020FF;
+    --shadow: 0 6px 10px rgba(117, 73, 82, 1);
+    --text: #fff;
+    --background: #643E46FF;
+}
+
+html {
+    box-sizing:border-box;
+    color: var(--text);;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--background);
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+.btn {
+    background: var(--hover);
+    color: var(--text);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 15px;
+}
+
+/* Search */
+
+.fa-search {
+    font-size: 10px;
+
+}
+
+.searchbar {
+    width: 500px;
+}
+
+
+
+/* Navigation */
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    color: var(--text);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    box-shadow: var(--shadow);
+}
+
+.main-nav a:hover {
+    background: var(--hover);
+}
+
+
+/* Top Container */
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'showcase showcase top-box-a'
+    'showcase showcase top-box-b';
+}
+
+/* Showcase */
+.showcase {
+    grid-area: showcase;
+    min-height: 400px;
+    background-size: cover;
+    background: url("../img/love-01.jpg") center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--text);
+}
+
+.showcase p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: var(--text);
+}
+
+/* Top Box */
+.top-box {
+    background: var(--primary);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+}
+
+.top-box .price {
+    font-size: 2.5rem;
+}
+
+.top-box-a {
+    grid-area: top-box-a;
+}
+
+.top-box-b {
+    grid-area: top-box-b;
+}
+
+/* Boxes */
+.boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+    background: var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+}
+
+/* Info */
+
+.info {
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+/* Portfolio */
+.people {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    cursor: pointer;
+
+}
+
+.portfolio img {
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+/* Footer */
+
+footer {
+    margin-top: 2rem;
+    background: var(--primary);
+    color: var(--text);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media Queries */
+@media(max-width: 700px) {
+    .top-container {
+        grid-template-areas:
+        'showcase showcase'
+        'top-box-a top-box-b';
+    }
+
+    .showcase h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-nav ul {
+        grid-template-columns: 1fr;
+    }
+
+    .info {
+        grid-template-columns: 1fr;
+    }
+
+    .info .btn {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .searchbar {
+        width: 230px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .top-container {
+        grid-template-areas:
+        'showcase'
+        'top-box-a'
+        'top-box-b';
+    }
+}
+
+
+
+
+
+
+
+
+
