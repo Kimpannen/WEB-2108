@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1c31029-35f5-4f38-9f84-7575813490b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../second/.idea/second.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/webbutveckling1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/.idea/2022-01-11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-11/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/.idea/2022-01-13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/components/main/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/components/main/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/components/navbar/NavBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/components/navbar/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/utils/global/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/utils/global/fonts/AlegreyaSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/utils/global/fonts/OleoScript-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/utils/images/codic-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-13/frontend/src/utils/images/laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/.idea/2022-01-18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/.idea/sonarlint/issuestore/6/6/66e3c6ff4d0a9df776291cec2a213424d787e598" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/src/utils/global/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/src/views/HomeView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-18/src/views/OtherView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/.idea/2022-01-20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/.idea/sonarlint/issuestore/9/1/91e3ca726684967a3f17f4b4b8effcd0cb169f77" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/.idea/sonarlint/issuestore/a/c/ac2a6911fdcafb3603739681d31476d62878fc29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-20/robofriends/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/components/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/components/NavBar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/router/Routing.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/router/RoutingPath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/shared/global/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/views/AxiosView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/views/FetchView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/views/HomeView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/fetch-axios/src/views/PokeView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-25/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/.idea/2022-01-28.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/components/Basket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/components/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/components/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-01-28/bio-shopping/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/.idea/2022-02-08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/2022-02-10/repetition/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/2022-02-10/repetition/objekt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/2022-02-10/repetition/objekt2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/first_server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/first_server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/first_server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/first_server/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/second_server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/second_server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/second_server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/third_server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/third_server/.env_template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/third_server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/third_server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-08/third_server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2022-02-10/.idea/2022-02-10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/Assignment5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/sonarlint/issuestore/0/8/0846c27aa71cb3524009514115ec8c3bd4fdd39b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/sonarlint/issuestore/5/3/53bc58587fb4e5d380b14642e9037541246fc065" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/sonarlint/issuestore/7/3/73fab788d5962564571f368cea38706a0d1a62e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/sonarlint/issuestore/7/d/7d0404fd17b11df8cd841416ebaede3cb3a1c447" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/sonarlint/issuestore/a/6/a66e8c8a11bbf647ae3300280261d93aae9674df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/sonarlint/issuestore/b/1/b10ac3b9daeea2bc05d8764cb86d07d6e0790dc7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment5/assignment-5/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gränssnittsdesign/.idea/sonarlint/issuestore/3/e/3efcec45ac983ab0fa0b0256c18a932a373c99f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gränssnittsdesign/.idea/sonarlint/issuestore/7/5/75e9e837cfd51f10ff139b5143b1b22dec330143" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gränssnittsdesign/inlämning/.idea/inlämning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gränssnittsdesign/inlämning/.idea/sonarlint/issuestore/5/6/56050b94b9b9c20e8f52d3737f4aa6fcd3c24734" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gränssnittsdesign/inlämning/.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/.idea/reactintro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactintro/my-first-react-app/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webbutveckling2_assigment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/Components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/Components/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/Components/pages/Biljettkop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/Components/pages/Kontakt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/Components/pages/Nyheter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/Components/pages/Topplistor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webbutveckling2_assignment/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gränssnittsdesign/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Gränssnittsdesign/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignmentbio4/.idea/sonarlint/issuestore/1/2/126b0f8c1ec95fb3a2541745bfc21365b438d668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignmentbio4/.idea/sonarlint/issuestore/3/1/313d6864fa48b411d082f7692efd0c0892788fc4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignmentbio4/.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignmentbio4/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../assignmentbio4/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="251RAg2CiZ1t9Q7jy8aTWNBg19c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webbutveckling2_assignment/src/Components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kimpannen\Documents\GitHub\WEB-2108\webbutveckling1\webbutveckling2_assigment\webbutveckling2_assignment\src\Components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kimpannen\Documents\GitHub\WEB-2108\webbutveckling1\webbutveckling2_assigment\webbutveckling2_assignment\src" />
+      <recent name="C:\Users\Kimpannen\Documents\GitHub\WEB-2108\webbutveckling1\webbutveckling2_assigment\webbutveckling2_assignment\src\Components\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1c31029-35f5-4f38-9f84-7575813490b0" name="Changes" comment="" />
+      <created>1644692463556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644692463556</updated>
+      <workItem from="1644692464908" duration="2979000" />
+      <workItem from="1644761615813" duration="8992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

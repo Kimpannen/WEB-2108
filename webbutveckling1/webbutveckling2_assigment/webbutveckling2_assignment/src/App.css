@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #353535;
+  height: 60px;
+  place-items: center;
+  padding: 10px;
+}
+
+.navlink{
+display: flex;
+  justify-content: space-evenly;
+  word-spacing: 10px;
+}
+
+.link{
+  text-decoration: none;
+  font-size: large;
+  font-weight: 400;
+  margin-left: 10px;
+  padding: 10px;
+  color: #bbb;
+}
+
+.active{
+  color: white;
+}
+
+.liten {
+  max-height: 8rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+block{
+  background-color: darkgray;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.col-2{
+  flex: 2;
+}

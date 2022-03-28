@@ -13,11 +13,6 @@
 css/cart.css,d\6\d650ddd98b74b3ea719e8a1a52de66c7d057274b
 <
 js/header.js,a\1\a145adc90b4afa92d7387a9465d47bf822f66054
-B
-js/dataProducts.js,c\c\ccea808655cb1559a29a322e7f809c3989de9f0f
-:
-
-js/card.js,8\4\848382bff68581b6f6232255d2fc27a1753eb2db
 :
 
 index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
@@ -27,3 +22,8 @@ index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
 js/script.js,4\d\4da5ceae6496884a1f0713d787ace4de5a398774
 >
 js/dropdown.js,7\3\73cc003d5aae670c95d6564c22a257629999906e
+:
+
+js/card.js,8\4\848382bff68581b6f6232255d2fc27a1753eb2db
+B
+js/dataProducts.js,c\c\ccea808655cb1559a29a322e7f809c3989de9f0f

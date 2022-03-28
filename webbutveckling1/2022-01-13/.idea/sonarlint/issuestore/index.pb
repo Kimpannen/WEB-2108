@@ -1,0 +1,25 @@
+
+C
+frontend/.gitignore,e\2\e23a63a9f05477a70f6e75d709dbb4eae2db742d
+O
+frontend/src/reportWebVitals.js,9\f\9f720addad7168969b50fe5ceca5a9e8dcf8069d
+D
+frontend/src/App.css,8\a\8a75d7beb1451b6fe9282486fbd897a9a8156b7f
+H
+frontend/src/App.test.js,8\2\824b503175b2d4643dca251a406e74fc8b4562e6
+J
+frontend/public/index.html,5\3\53b461857fde9b76a1c6e79a500050ceffbd7f33
+E
+frontend/src/index.js,0\9\09a4e53ab0e5e7637fd01136f19a9bb570e1ef2d
+Y
+)frontend/src/components/navbar/NavBar.css,f\5\f587b117996dfb2752bd084f9a667af1d218817a
+X
+(frontend/src/utils/global/css/global.css,7\6\769ce1df1d301f0a933f352b9b4a66d70e2a3973
+C
+frontend/src/App.js,d\6\d63b8ace488b6134c279ccc0cc109223d4d79c20
+U
+%frontend/src/components/main/main.css,e\7\e71cbb26a51f210e093681cfe43b32b563ae178b
+T
+$frontend/src/components/main/main.js,a\5\a5c275da0254b6b17706ddf7617e1556b35994d6
+X
+(frontend/src/components/navbar/NavBar.js,1\7\17a35aecdf7c431fbe0d65fce4a3ae0a6d77268d
