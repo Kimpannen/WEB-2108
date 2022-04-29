@@ -11,7 +11,7 @@ export default function Basket(props) {
         <aside className="block col-1">
             <h2 className="layout">Varukorg</h2>
 
-            <div>{cartItems.length === 0 && <div>Kundvagnen är tom</div>}</div>
+
             {cartItems.map((item) => (
                 <div key={item.id} className="row">
                     <div className="col-2">{item.name}</div>
@@ -34,6 +34,8 @@ export default function Basket(props) {
                         <div className="col-2"><strong>Totalt</strong></div>
                         <div className="col-1 text-right"><strong>{totalPrice.toFixed(0)}kr</strong></div>
                     </div>
+
+
                     <hr/>
                     <div className="row">
                         <button onClick={() => alert('Tack för ditt köp!')}>

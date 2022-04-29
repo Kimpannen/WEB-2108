@@ -33,7 +33,7 @@ const data = {
             id: '5',
             name: 'Van Halen',
             price: 59,
-            image: 'https://www.rocknytt.net/wp-content/uploads/2021/10/1.-VH.png',
+            image: 'https://classicalbumsundays.com/wp-content/uploads/2018/10/Van-Halen-1984.jpg',
         },
 
 
