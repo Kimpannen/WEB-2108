@@ -5,10 +5,13 @@ import cors from 'cors'
 dotenv.config()
 
 // Config stuff
-const port = process.env.SERVER_PORT
+const port = process.env.SERVER_PORT || 8080
+const allowedRequestOrigins = '*'
+const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
+
 const cors_options = {
-    origin: '*',
-    methods: ['GET', 'POST', 'PUT', 'DELETE']
+    origin: allowedRequestOrigins,
+    methods: allowedRequestMethods
 }
 
 // Initiate ExpressAPP
@@ -16,6 +19,7 @@ const app = express()
 
 // Middleware
 app.use(cors(cors_options))
+app.use(express.json())
 
 // Databas Namn
 const userDatabase = [
@@ -67,12 +71,42 @@ const getUserByName = (name) => {
     return object
 }
 
+const updateUserByName = (name, newName, age, gender) => {
+    let object = `Could not find "${name}" in database`
+    userDatabase.forEach(user => {
+        console.log(user.name)
+        if (name === user.name) {
+            user.name = newName
+            user.age = age
+            user.gender = gender
+            object = user
+            return
+        }
+    })
+    return object
+}
+
 // Endpoint + Business logic
 app.get('/', (req, res) => {
     res.send('API is Alive!')
 })
 
+
 // CRUD
+
+// Create
+app.post('/user/', (req, res) => {
+    const {name, age, gender} = req.body
+    const newObject =  {
+            name: name,
+            age: age,
+            gender: gender
+        }
+        userDatabase.push(newObject)
+    res.status(201).send(userDatabase)
+})
+
+
 // Read
 app.get('/users', (req,res) => {
     res.status(200).send(userDatabase)
@@ -93,6 +127,15 @@ app.get('/user/:name', (req,res) => {
 //READ
 
 //UPDATE
+app.put('/user/', (req, res) => {
+    const {name, newName, age, gender} = req.body
+    const response = updateUserByName(name, newName, age, gender)
+
+
+    userDatabase.push()
+    res.status(202).send(response)
+})
+
 
 //DELETE
 
@@ -102,3 +145,6 @@ app.get('/user/:name', (req,res) => {
 app.listen(port, () => {
     console.log(`Server running on adress:port http:localhost:${port}`)
 })
+
+
+// 2022-02-17 del 6
