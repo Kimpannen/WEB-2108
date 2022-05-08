@@ -86,6 +86,22 @@ const updateUserByName = (name, newName, age, gender) => {
     return object
 }
 
+const deleteUserByName = (name) => {
+    let text = `User With name: "${name}" `
+
+    for (let i = 0; i < userDatabase.length; i++) {
+        if(name === userDatabase[i].name) {
+            text += `was deleted from database`
+            userDatabase.splice(i, 1)
+            return text
+        }
+    }
+
+    text += `don't exist in database!`
+    return text
+
+}
+
 // Endpoint + Business logic
 app.get('/', (req, res) => {
     res.send('API is Alive!')
@@ -138,6 +154,11 @@ app.put('/user/', (req, res) => {
 
 
 //DELETE
+app.delete('/user/:name', (req, res) => {
+    const name = req.params.name
+    const responseFromDb = deleteUserByName(name)
+    res.status(200).send(responseFromDb)
+})
 
 
 
@@ -147,4 +168,4 @@ app.listen(port, () => {
 })
 
 
-// 2022-02-17 del 6
+// 2022-02-22 Del 2- komponent 08:09
